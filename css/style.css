@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #fff;
+  color: #000;
+}
+
+.tareas {
+  max-width: 400px;
+  margin: auto;
+}
+
+input#nuevaTarea, .boton {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input#nuevaTarea {
+  width: 70%;
+}
+
+.boton {
+  width: 25%;
+  margin-left: 5%;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.lista li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.lista li.completada {
+  text-decoration: line-through;
+  color: #999;
+}
