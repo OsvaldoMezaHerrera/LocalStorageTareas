@@ -5,44 +5,40 @@ body {
   color: #000;
 }
 
-.tareas {
+.nuevaTarea {
   max-width: 400px;
   margin: auto;
 }
 
-input#nuevaTarea, .boton {
+.nuevaTarea, .btnAgregar {
   padding: 8px;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 3px;
-}
-
-input#nuevaTarea {
   width: 70%;
 }
 
-.boton {
+.btnAgregar {
   width: 25%;
   margin-left: 5%;
   background: #007bff;
   color: #fff;
-  border: none;
-  cursor: pointer;
+  border-radius: 9px;
+
 }
 
-.lista {
+.lista-tareas {
   list-style: none;
   padding: 0;
   margin-top: 20px;
 }
 
-.lista li {
+.lista-tareas li {
   padding: 8px 0;
   border-bottom: 1px solid #eee;
-  cursor: pointer;
 }
 
-.lista li.completada {
+.lista-tareas li.completada {
   text-decoration: line-through;
   color: #999;
 }
